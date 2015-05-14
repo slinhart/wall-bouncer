@@ -1,0 +1,53 @@
+body {
+	overflow: hidden;
+}
+
+.bouncing-div {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+}
+
+button {
+	display: block;
+	width: 100px;
+	height: 50px;
+	border: none;
+	border-radius: 5em;
+	background-color: #3385FF;
+	clear: both;
+	margin: 15px;
+	font-family: "helvetica", sans-serif;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+button:focus {
+	outline: none;
+}
+
+button:hover {
+	background-color: #94B8FF;
+}
+
+button.reset {
+	background-color: #FF3333;
+}
+
+button.reset:hover {
+	background-color: #FF8080;
+}
+
+#counter-container {
+	display: block;
+}
+
+#pug-counter {
+	text-align: center;
+	font-size: 800%;
+	color: #CBCBCB;
+	font-weight: 900;
+	font-family: Georgia, serif;
+	margin-top: auto;
+	margin-bottom: auto;
+}
